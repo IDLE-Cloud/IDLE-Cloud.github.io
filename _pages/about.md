@@ -11,8 +11,9 @@ I am a PhD student at **AI³ Institute, Fudan University** and
 **Shanghai Academy of AI for Science** (starting 2026.9),
 jointly advised by [Prof. Hao Xiong](https://shawxh.github.io/)
 (Fudan) and [Prof. Junchi Yan](https://thinklab.sjtu.edu.cn/)
-(SJTU). I have been working with Prof. Hao Xiong as a research
-intern since 2025.10, where I led the development of CoEvol-NO.
+(SJTU). My recent work spans co-evolutionary neural operators
+and structured-reasoning agents, with the ICML 2026 Oral
+CoEvol-NO as the lead project of my pre-PhD research.
 
 My research sits at the intersection of **deep learning
 architectures**, **neural operators**, and **AI agents**, with
