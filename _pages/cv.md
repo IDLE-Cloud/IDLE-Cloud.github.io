@@ -20,7 +20,6 @@ Education
 * **Ph.D. in Computer Science**, AI³ Institute, Fudan University, Shanghai Academy of AI for Science, 2026.09 – present *(incoming)*
   * Advisors: Prof. Hao Xiong (Fudan), Prof. Junchi Yan (SJTU)
 * **B.E. in Artificial Intelligence**, Sun Yat-sen University (中山大学), 2022.09 – 2026.06
-  * GPA: 4.0/5.0 · Rank: 15/154 (Top 10%) · Expected graduation: 2026.06
 
 Publications
 ======
