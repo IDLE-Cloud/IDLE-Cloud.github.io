@@ -9,56 +9,71 @@ redirect_from:
 
 {% include base_path %}
 
+Jianqiao Zeng (曾健桥)
+======
+Shanghai, China · zengjianqiao5@gmail.com · [GitHub](https://github.com/IDLE-Cloud)
+
+Incoming Ph.D. student working at the intersection of **neural operators**, **deep learning architectures**, and **AI agents** for scientific computing. First-author publications at ICML 2026 (Oral) and CSCW (CCF-A).
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Ph.D. in Computer Science**, AI³ Institute, Fudan University, Shanghai Academy of AI for Science, 2026.09 – present *(incoming)*
+  * Advisors: Prof. Hao Xiong (Fudan), Prof. Junchi Yan (SJTU)
+* **B.E. in Artificial Intelligence**, Sun Yat-sen University (中山大学), 2022.09 – 2026.06
+  * GPA: 4.0/5.0 · Rank: 15/154 (Top 10%) · Expected graduation: 2026.06
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Research Experience
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+
+* **CoEvol-NO: Co-Evolutionary Neural Operator with Error-Driven Predictor-Corrector Framework**
+  *First author · Advisors: Prof. Junchi Yan, Prof. Hao Xiong · ICML 2026 (CCF-A) Oral · 2025.10 – 2026.05*
+  * **Paradigm innovation:** Identified the structural trade-off between *geometric sensitivity* and *dynamic memory* in existing neural operators; proposed **Co-Evolution** as a third paradigm — latent state and mesh sequence evolve jointly through bidirectional updates.
+  * **Theoretical unification:** Proved that residual connections and direct substitution are first-order approximations of a single Error-Driven Correction framework under different loss assumptions; introduced **exact Jacobian gradient** to upgrade updates to full optimization. Formalized the symmetry-induced stability advantage and condition-number cost.
+  * **Empirical validation:** Achieved SOTA on 5 standard PDE benchmarks and 2 industrial tasks. 40-layer deep extension shows Navier-Stokes error decreases monotonically (48% drop). PC framework transfers consistently to Transolver and LNO. [Code](https://github.com/IDLE-Cloud/CoEvol-NO)
+
+* **FreqONet: Frequency-Domain Operator Learning via Dimensional Decomposition**
+  *First author · Advisor: Prof. Junchi Yan · Manuscript under review · 2025.01 – 2025.07*
+  * **Decoupled-Composed framework:** Reformulated high-dimensional PDE solving as a two-stage process — independent 1D coordinate encoding followed by strict composition. Systematically analyzed four composition strategies (Cat / Add / Hadamard / Outer Product); proved **tensor product** is the unique composition preserving both orthogonality and translation-invariant kernel properties.
+  * **Universal approximation:** Based on Stone-Weierstrass theorem, proved that if each 1D encoding subspace is dense in $C(K_i)$, then the tensor-product span is dense in $C(K_1 \times \cdots \times K_d)$.
+  * **Hybrid encoding (FreqPE):** Decomposed encoding space into fixed-orthogonal basis (high-frequency structure prior) plus learnable basis (low-frequency data-driven) with a complementary loss enforcing orthogonality.
+
+* **Argument-Map-Based Critical Thinking Training Tool with LLMs**
+  *Co-first author · Advisor: Prof. Zhenhui Peng · CSCW (CCF-A) · 2023.11 – 2024.10*
+  * Designed and developed a critical-thinking training system combining argument maps with LLMs.
+  * Frontend (Vue.js) for mind-map visualization and question-driven interaction; backend (Flask RESTful) for LLM role-play prompt design and adaptive opinion exploration.
+  * Led user-experiment design, execution, and data analysis; wrote the core paper sections.
+
+* **Learning Agent: Problem-DAG-Driven Personal Knowledge Tracking and Adaptive Learning**
+  *Independent project · 2026.04 – present*
+  * **Core insight:** "Mastering a domain = answering its core question set." Models knowledge as a DAG (multi-parent + cross-domain links); learning progress measured by question-decomposition depth, not reading volume.
+  * **Methodology & feedback loop:** Designed 5 question decomposition methods (prerequisite / component / contrast / causal chain / assumption clarification); AI generates questions only, not answers. CHECK-DECIDE mechanism propagates answer updates via the DAG, marking downstream nodes as STALE for consistency cascade.
+  * **Engineering:** React + Vite + Tailwind static frontend with infinite SVG canvas, three views (radial / text tree / focus navigator), global knowledge graph, statistics dashboard. 9 Claude Code skills + Python CLI for node lifecycle management.
+
+Selected Open-Source Projects
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* **Skill-Manager** — Skill lifecycle management tool (registration, call counts, user feedback collection, A/B evaluation).
+* **CoEvol-NO** — Co-evolutionary neural operator framework. [GitHub](https://github.com/IDLE-Cloud/CoEvol-NO)
+* **Learning Agent** — Graph-driven dialogue-based learning system.
+
+Skills
 ======
-* Currently signed in to 43 different slack teams
+* **Programming:** Python (expert), C/C++, CUDA, Bash, LaTeX
+* **Deep Learning:** PyTorch (expert), JAX, Hugging Face Transformers
+* **Tools:** Claude Code, Git, Linux, Docker
+* **Theory:** Matrix theory, functional analysis, convex optimization
+* **Reproductions:** PINN, FNO, CNO, DeepONet, DDPM, DiT
+
+Awards & Honors
+======
+* **Meritorious Winner (M Award)**, MCM/ICM (Mathematical Contest in Modeling), 2024.02
+* **First Prize** (Guangdong Province), National Mathematics Competition for College Students, 2023.11
+
+Professional Service
+======
+* (To be added — conference reviewing, mentoring, open-source contributions)
