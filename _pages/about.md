@@ -15,20 +15,26 @@ jointly advised by [Prof. Hao Xiong](https://shawxh.github.io/)
 and structured-reasoning agents, with the ICML 2026 Oral
 CoEvol-NO as the lead project of my pre-PhD research.
 
-My research sits at the intersection of **deep learning
-architectures**, **neural operators**, and **AI agents**, with
-applications in scientific computing.
+My research centers on **deep learning architectures**,
+**representation learning**, and **AI agents** — building
+models and systems that reason over structured signals and
+decompose complex problems.
 
 ## Research
 
 I work on three interconnected directions:
 
-- **Operator Learning.** Learning mappings between
-  infinite-dimensional function spaces for solving PDEs.
-- **Deep Learning Architectures.** Efficient and
-  physically-aware architectures for scientific models.
-- **AI Agents.** Structured-reasoning agents that decompose
-  complex problems into tractable sub-tasks.
+- **Model Architectures.** Designing efficient and expressive
+  neural architectures — including co-evolutionary
+  state–mesh updates (CoEvol-NO) and frequency-domain
+  position encoding (FreqONet).
+- **Representation Learning.** Studying how neural networks
+  encode functions, frequencies, and structure across
+  modalities; theoretical analysis of approximation and
+  stability.
+- **AI Agents.** Building structured-reasoning agents that
+  decompose complex problems into tractable sub-tasks
+  (e.g., the Learning Agent system).
 
 ## Selected Publications
 

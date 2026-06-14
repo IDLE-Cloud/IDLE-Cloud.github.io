@@ -13,7 +13,7 @@ Jianqiao Zeng (曾健桥)
 ======
 Shanghai, China · zengjianqiao5@gmail.com · [GitHub](https://github.com/IDLE-Cloud)
 
-Incoming Ph.D. student working at the intersection of **neural operators**, **deep learning architectures**, and **AI agents** for scientific computing. First-author publications at ICML 2026 (Oral) and CSCW (CCF-A).
+Incoming Ph.D. student working on **deep learning architectures**, **representation learning**, and **AI agents**. First-author publications at ICML 2026 (Oral) and CSCW (CCF-A).
 
 Education
 ======
