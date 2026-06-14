@@ -43,8 +43,8 @@ Research Experience
   * **Universal approximation:** Based on Stone-Weierstrass theorem, proved that if each 1D encoding subspace is dense in $C(K_i)$, then the tensor-product span is dense in $C(K_1 \times \cdots \times K_d)$.
   * **Hybrid encoding (FreqPE):** Decomposed encoding space into fixed-orthogonal basis (high-frequency structure prior) plus learnable basis (low-frequency data-driven) with a complementary loss enforcing orthogonality.
 
-* **Argument-Map-Based Critical Thinking Training Tool with LLMs**
-  *Co-first author · Advisor: Prof. Zhenhui Peng · CSCW (CCF-A) · 2023.11 – 2024.10*
+* **AMQuestioner: Training Critical Thinking with Question-Driven Interactive Argument Maps in Online Discussion**
+  *Co-first author · Advisor: Prof. Zhenhui Peng · [CSCW 2025](https://dl.acm.org/doi/10.1145/3757551) · 2023.11 – 2024.10*
   * Designed and developed a critical-thinking training system combining argument maps with LLMs.
   * Frontend (Vue.js) for mind-map visualization and question-driven interaction; backend (Flask RESTful) for LLM role-play prompt design and adaptive opinion exploration.
   * Led user-experiment design, execution, and data analysis; wrote the core paper sections.
