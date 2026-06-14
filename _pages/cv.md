@@ -69,11 +69,6 @@ Skills
 * **Theory:** Matrix theory, functional analysis, convex optimization
 * **Reproductions:** PINN, FNO, CNO, DeepONet, DDPM, DiT
 
-Awards & Honors
-======
-* **Meritorious Winner (M Award)**, MCM/ICM (Mathematical Contest in Modeling), 2024.02
-* **First Prize** (Guangdong Province), National Mathematics Competition for College Students, 2023.11
-
 Professional Service
 ======
 * (To be added — conference reviewing, mentoring, open-source contributions)
